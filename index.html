@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="speedTypingTest">
+        <h1 class="head">Speed Typing Test</h1>
+        <p class="description">On your fingers lets set Go!</p>
+        <div class="time-container">
+            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" class="image" alt="Image"/>
+            <p class="para" id="timer"><span class="count" id="currentTimeSecs">0</span>Seconds</p>
+        </div>
+        <form class="form">
+            <div class="matter-container">
+                <div id="spinner" class="spinner-display">
+                    <div class="spinner-border" role="status">
+                        <span></span>
+                    </div>
+                </div>
+                <p id="quoteDisplay"></p>
+                <textarea name="" rows="8" cols="30" id="quoteInput" placeholder="Type Here!!"></textarea>
+            </div>
+            <p id="result"></p>
+            <div className="btn-cont">
+            <button type="submit" class="btn button" id="submitBtn">Submit</button>
+            <button  type="submit" class="btn button-light" id="restartBtn">Restart</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
